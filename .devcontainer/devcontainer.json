@@ -1,0 +1,11 @@
+{
+    "name": "Mosquitto Python Paho",
+    "dockerFile": "Dockerfile",
+    "extensions": [
+        "ms-python.python"
+    ],
+    "settings": {
+        "terminal.integrated.shell.linux": "/bin/bash"
+    },
+    "postCreateCommand": "mosquitto -v -p 1883"
+}
